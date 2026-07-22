@@ -1,121 +1,73 @@
-# 🚀 NextSTEP 
+# Welcome to your Lovable project
 
-**NextSTEP** is a modern web platform designed to help Indian students make informed academic and career decisions after Class 10 and Class 12.
+## Project info
 
-🌐 **Live Demo:** https://indian-academic-pathways-main.vercel.app/
+**URL**: https://lovable.dev/projects/f6f36e1d-fd95-45ed-bcfe-4226566b15ba
 
----
+## How can I edit this code?
 
-## 📖 About
+There are several ways of editing your application.
 
-Choosing the right career path in India can be confusing due to the overwhelming number of streams, entrance exams, colleges, scholarships, and career options.
+**Use Lovable**
 
-NextSTEP brings this information together into a single platform, helping students explore their options with confidence.
+Simply visit the [Lovable Project](https://lovable.dev/projects/f6f36e1d-fd95-45ed-bcfe-4226566b15ba) and start prompting.
 
----
+Changes made via Lovable will be committed automatically to this repo.
 
-## ✨ Features
+**Use your preferred IDE**
 
-* 🎓 Career exploration after Class 10 & 12
-* 🏫 College discovery
-* 📚 Course information
-* 📝 Entrance exam guidance
-* 💰 Scholarship information
-* 📈 Trending careers
-* 🔍 Easy navigation and search
-* 📱 Responsive design for desktop and mobile
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
----
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## 🛠 Tech Stack
+Follow these steps:
 
-* TypeScript
-* React
-* Vite
-* Tailwind CSS
-* shadcn/ui
-* Firebase
-* Vercel
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
----
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## 🎯 Purpose
+# Step 3: Install the necessary dependencies.
+npm i
 
-This project was built to solve a real problem faced by millions of Indian students:
-
-> "What should I do after Class 10 or Class 12?"
-
-Instead of searching across dozens of websites, students can explore academic pathways, colleges, scholarships, and career options from one platform.
-
----
-
-## 🚀 Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/Shah-Abubakar/NextSTEP.git
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-Build for production:
+**Edit a file directly in GitHub**
 
-```bash
-npm run build
-```
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
----
+**Use GitHub Codespaces**
 
-## 📂 Project Structure
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-```
-src/
-├── components/
-├── pages/
-├── hooks/
-├── lib/
-├── data/
-└── assets/
+## What technologies are used for this project?
 
-public/
-```
+This project is built with:
 
----
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-##  Future Improvements
+## How can I deploy this project?
 
-* AI-powered career recommendations
-* Personalized student dashboard
-* Scholarship eligibility checker
-* College comparison tool
-* Entrance exam preparation resources
-* Student community and discussion forum
-* Progress tracking
-* Multi-language support
+Simply open [Lovable](https://lovable.dev/projects/f6f36e1d-fd95-45ed-bcfe-4226566b15ba) and click on Share -> Publish.
 
----
+## Can I connect a custom domain to my Lovable project?
 
-##  Developer
+Yes, you can!
 
-**Shah Abubakar**
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-GitHub: https://github.com/Shah-Abubakar
-
----
-
-## Support
-
-If you found this project useful, consider giving it a  on GitHub.
-
-It helps others discover the project and motivates further development.
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
