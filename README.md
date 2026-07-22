@@ -1,4 +1,4 @@
-# 🚀 NextSTEP – Indian Academic Pathways
+# 🚀 NextSTEP 
 
 **NextSTEP** is a modern web platform designed to help Indian students make informed academic and career decisions after Class 10 and Class 12.
 
