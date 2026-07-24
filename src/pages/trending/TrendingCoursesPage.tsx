@@ -10,21 +10,38 @@ import TrendingCourseCard from "@/components/trending/TrendingCourseCard";
 // Select top trending courses from the freeCourses data
 // These would typically be determined by user engagement metrics, but we're manually selecting them
 const trendingCourses = [
+  freeCourses.find(course => course.id === "56"), // Google Data Analytics
+  freeCourses.find(course => course.id === "57"), // Google AI
+  freeCourses.find(course => course.id === "58"), // Google Cybersecurity
+  freeCourses.find(course => course.id === "59"), // Google Project Management
+  freeCourses.find(course => course.id === "60"), // Google UX Design
   freeCourses.find(course => course.id === "26"), // Prompt Engineering for ChatGPT
   freeCourses.find(course => course.id === "27"), // Generative AI with LLMs
+  freeCourses.find(course => course.id === "64"), // Intro to Generative AI
+  freeCourses.find(course => course.id === "63"), // Elements of AI
+  freeCourses.find(course => course.id === "69"), // Claude AI Fundamentals
   freeCourses.find(course => course.id === "11"), // Deep Learning Specialization
-  freeCourses.find(course => course.id === "28"), // Cybersecurity for Beginners
-  freeCourses.find(course => course.id === "31"), // Blockchain Fundamentals
-  freeCourses.find(course => course.id === "15"), // React - The Complete Guide
-  freeCourses.find(course => course.id === "32"), // Cloud Computing Fundamentals
-  freeCourses.find(course => course.id === "33"), // DevOps Engineering
+  freeCourses.find(course => course.id === "12"), // AI For Everyone
+  freeCourses.find(course => course.id === "73"), // MIT 6.S191 Deep Learning
+  freeCourses.find(course => course.id === "74"), // Practical Deep Learning
   freeCourses.find(course => course.id === "19"), // CS50's AI with Python
+  freeCourses.find(course => course.id === "65"), // CS50 Web Programming
+  freeCourses.find(course => course.id === "66"), // CS50 Python
+  freeCourses.find(course => course.id === "62"), // IBM Data Science
+  freeCourses.find(course => course.id === "71"), // Google BI
+  freeCourses.find(course => course.id === "72"), // Google Advanced Analytics
+  freeCourses.find(course => course.id === "75"), // freeCodeCamp Data Analysis
+  freeCourses.find(course => course.id === "68"), // SQL for Data Science
+  freeCourses.find(course => course.id === "70"), // Google Digital Marketing
+  freeCourses.find(course => course.id === "61"), // Google IT Support
+  freeCourses.find(course => course.id === "15"), // React - The Complete Guide
   freeCourses.find(course => course.id === "29"), // UI/UX Design Fundamentals
   freeCourses.find(course => course.id === "45"), // Ethical Hacking
   freeCourses.find(course => course.id === "14"), // Python for Everybody
-  freeCourses.find(course => course.id === "43"), // AR/VR Development
   freeCourses.find(course => course.id === "50"), // Kubernetes
   freeCourses.find(course => course.id === "20"), // Flutter & Dart
+  freeCourses.find(course => course.id === "43"), // AR/VR Development
+  freeCourses.find(course => course.id === "67"), // Excel Skills for Business
 ].filter(Boolean) as typeof freeCourses;
 
 // Popular categories based on the trending courses
@@ -58,11 +75,11 @@ const TrendingCoursesPage = () => {
           </div>
 
           <div className="border border-border/50 bg-card p-6 mb-8">
-            <h2 className="text-lg font-semibold mb-2">Top Trending Courses in 2025</h2>
+            <h2 className="text-lg font-semibold mb-2">Top Trending Courses in 2026</h2>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              These courses are currently in high demand due to industry trends and job market requirements. 
-              They offer valuable skills that employers are actively seeking, with many providing certificates 
-              that can boost your resume and career prospects.
+              These 30+ courses are currently in high demand based on 2026 industry trends and job market data. 
+              They offer valuable skills that employers are actively seeking, with most providing free certificates 
+              or financial aid options that can boost your resume and career prospects.
             </p>
           </div>
 
@@ -102,7 +119,7 @@ const TrendingCoursesPage = () => {
           </Tabs>
 
           {filteredCourses.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {filteredCourses.map((course) => (
                 <TrendingCourseCard key={course.id} course={course} />
               ))}
