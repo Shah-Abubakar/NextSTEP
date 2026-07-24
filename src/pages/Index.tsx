@@ -84,14 +84,14 @@ const Index = () => {
           <div className="section-container relative z-10">
             {/* Section header */}
             <div className="text-center mb-12">
-              <p className="editorial-serif text-sm text-[#111111] mb-3 opacity-60">Resources</p>
+              <p className="animate-fade-in editorial-serif text-sm text-[#111111] mb-3 opacity-60">Resources</p>
               <h2 className="display-heading text-[clamp(32px,5vw,56px)] leading-[0.92] text-[#111111] mb-4">
-                <span className="italic-word">Explore</span>{" "}
-                <span className="italic-word">Our</span>{" "}
-                <span className="text-primary">Resources</span>
-                <span className="inline-block w-[10px] h-[10px] rounded-full bg-[#FF7A6E] ml-2 align-middle" />
+                <span className="inline-block animate-fade-in italic-word" style={{ animationDelay: '0.12s' }}>Explore</span>{" "}
+                <span className="inline-block animate-fade-in italic-word" style={{ animationDelay: '0.24s' }}>Our</span>{" "}
+                <span className="inline-block animate-fade-in text-primary" style={{ animationDelay: '0.36s' }}>Resources</span>
+                <span className="inline-block animate-fade-in w-[10px] h-[10px] rounded-full bg-[#FF7A6E] ml-2 align-middle" style={{ animationDelay: '0.48s' }} />
               </h2>
-              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              <p className="animate-fade-in text-muted-foreground text-lg max-w-2xl mx-auto" style={{ animationDelay: '0.6s' }}>
                 From scholarships to career guidance — everything you need for your academic journey in one place.
               </p>
             </div>
